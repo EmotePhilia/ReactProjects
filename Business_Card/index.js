@@ -7,6 +7,7 @@ function App(){
         <div id="page-wrapper">
         <Nav />
         <Main />
+        <Footer />
         </div>
     )
 }
