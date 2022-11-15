@@ -118,3 +118,23 @@ main h5{
 .features{
     padding-bottom: 16px;
 }
+footer{
+    height: 64px;
+    background-color: #161619;
+    display: flex;
+    column-gap: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icons{
+    height: 24px;
+}
+.footer-icons:hover{
+    height: 32px;
+}
+.footer a{
+    height: fit-content;
+}
+#fb{
+    background-image: url("/.components/facebook.svg");
+}
