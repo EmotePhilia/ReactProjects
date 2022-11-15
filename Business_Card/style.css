@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    background-color: #23252C;
+    color: white;
+    font-family: Inter;
+}
+#root{
+    height: 100%;
+}
+#page-wrapper{
+    height: 100%;
+}
+.header--face{
+    width: 100vw;
+    height: 95vw;
+}
+header{
+    /* border-radius: 10px 10px 0px 0px; */
+    background-color: #1A1B21;
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+nav > *{
+    width: fit-content;
+    margin: auto;
+}
+nav > h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 16px 0px 4px 0px;
+}
+nav > h6{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15.5px;
+    color: #F3BF99;
+    padding-bottom: 8px;
+}
+nav > p{
+    padding-bottom: 16px;
+    font-size: 10px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+.nav--buttons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+    column-gap: 16px;
+}
+.nav--email{
+    color: #374151;
+    background-image: url("./images/envelope.1.svg");
+    background-color: #E0E0E0
+}
+.nav--github, .nav--email{
+   width: 35%; 
+   padding: 8px 0px 8px 24px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 16px;
+   height: 34px;
+   border: 0px;
+   border-radius: 6px;
+   background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 20% 50%;
+    transition: 0.3s;
+}
+.nav--github{
+    background-color: #4078c0;
+    color: #F5F5F5;
+    background-image: url("./images/github.svg");
+    background-position: 20% 48%;
+}
+.nav--github:focus, .nav--email:focus{
+    outline-width: 2px;
+    outline-color: black;
+}
+.nav--github:hover{
+    background-color: #407FF5;
+    background-position: 15% 48%;
+} 
+.nav--email:hover{
+    background-position: 18% 50%;
+    background-color: #F7F7F7
+}
+.nav--email:hover, .nav--github:hover{
+    font-size: 16px;
+    line-height: 18px;
+}
+main{
+    background-color: #1A1B21;
+    padding: 0px 10vw 0px 10vw;
+}
+main  p{
+    font-size: 10px;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+main h5{
+    color: #F5F5F5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 4px;
+}
+.features{
+    padding-bottom: 16px;
+}

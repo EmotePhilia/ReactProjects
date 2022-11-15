@@ -1,0 +1,5 @@
+W Quizie formularz jest prostszy w zrozumieniu. Został zrobiony bardziej poprawnie, pracując cały czas na state na bierząco, 
+zamiast podczas submitu.
+Minus: Quiz się rerenderuje podczas zmiany odpowiedzi ale nie ma to dużego wpływu na performance, ogółem na testach
+teraz radzi sobie lepiej (niższe szczyty)
++ Mały tweak w css (px => % blobów)

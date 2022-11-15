@@ -1,0 +1,30 @@
+Potrzeba zrobić model zależności pomiędzy quizem, pytaniami i odpowiedziami.
+Z założenia gdy w quizie przycisk wyślij zostanie wciśnięty przyciski powinny przestać być interaktywne, sam submit powinien się zamienić w wynik.
+ZLiczanie wyniku? Nie wiem. Trzeba to opracować.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 koncepcja:
+zrobić tak by do każdego pytania wysłać przez przycisk w quizie sygnał że czas na wynik, zmiana stylu byłaby łatwa wtedy, ale jak określić czy została przydzielona dobra odpowiedź? Do sumowania wyniku? Kolejny state?
+
+Jak to ogarnąć: state w quizie który będzie się powiększał o każdą odpowiedź w zadaniu.
+Zacznie się to gdy zostanie wciśnięty przycisk.
+2 koncepcja:
+Zebrać defaultowym js'em co zostało zaznaczone, ale wtedy będzie trzeba jakoś określić prawidłowe odpowiedzi dla danego pytania. Czy będzie to możliwe?

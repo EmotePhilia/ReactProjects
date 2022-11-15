@@ -1,0 +1,1 @@
+Strona zrobiona pod telefon!
